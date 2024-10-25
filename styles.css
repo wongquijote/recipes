@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: solid red; */
+}
+
+.menu-container {
+    color: #fff;
+    background-color: #b4cbe6;  /* Blue */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+.menu-one {
+    border: 2px solid #fff;  
+    padding: 10px 20px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .signup {
+    margin-left: auto;
+  } */
+
+.links-one {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.title {
+    text-align: center;
+    padding: 8px;
+}
+
+.title div {
+    margin: 8px;
+    background-color: rgb(162, 253, 223);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(153, 178, 242);
+    padding: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 10px;
+    padding: 8px;
+    border: 8px solid white;
+    height: auto;
+    width: 1000px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links div {
+    margin: 10px;
+}
+
+.arrow {
+    list-style: square;
+    margin: 0 12px;
+}
+
+.yap {
+    margin-top: 10px;
+    height: 100px;
+    display: flex;
+    align-items: stretch;
+}
+
+.down {
+    align-self: flex-end;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+  }
+  
+  .photo-grid-item {
+    width: 300px;
+  }
+
+  .first-item {
+    order: 1;
+  }
+
+  .last-item { 
+    /* decreasing order default 0 */
+    order: -1;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+  }
+
+  .footer-one,
+  .footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
+  }
